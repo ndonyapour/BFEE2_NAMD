@@ -104,7 +104,7 @@ harmonic {
 harmonic {
     colvars         eulerPhi
     forceConstant   0.1
-    centers        -16.5
+    centers        -15.5
 }
 colvar {
   name translation

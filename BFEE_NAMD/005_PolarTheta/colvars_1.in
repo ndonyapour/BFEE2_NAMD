@@ -68,8 +68,8 @@ colvar {
     name polarTheta
     customFunction acos(-i2) * 180 / 3.1415926
     width 1
-    lowerboundary 52.0
-    upperboundary 72.0
+    lowerboundary 49.0
+    upperboundary 89.0
     subtractAppliedForce on
     expandboundaries  on
     extendedLagrangian on
@@ -113,8 +113,8 @@ metadynamics {
 }
 harmonicWalls {
     colvars           polarTheta
-    lowerWalls        52.0
-    upperWalls        72.0
+    lowerWalls        49.0
+    upperWalls        89.0
     lowerWallConstant 0.2
     upperWallConstant 0.2
 }
@@ -131,12 +131,12 @@ harmonic {
 harmonic {
     colvars         eulerPhi
     forceConstant   0.1
-    centers         -10
+    centers         -15.5
 }
 harmonic {
     colvars         eulerPsi
     forceConstant   0.1
-    centers         10
+    centers         16.5
 }
 colvar {
   name translation

@@ -124,7 +124,7 @@ colvar {
     name    r
     width 0.10
     lowerboundary 4.10
-    upperboundary 28.10
+    upperboundary 30.10
     subtractAppliedForce on
     expandboundaries  on
     extendedLagrangian on
@@ -155,7 +155,7 @@ metadynamics {
 harmonicWalls {
     colvars           r
     lowerWalls        4.1
-    upperWalls        28.1
+    upperWalls        30.1
     lowerWallConstant 0.2
     upperWallConstant 0.2
 }
@@ -172,22 +172,22 @@ harmonic {
 harmonic {
     colvars         eulerPhi
     forceConstant   0.1
-    centers         -10.0
+    centers         -15.5
 }
 harmonic {
     colvars         eulerPsi
     forceConstant   0.1
-    centers         10.0
+    centers         16.5
 }
 harmonic {
     colvars         polarTheta
     forceConstant   0.1
-    centers         66.0
+    centers         68.5
 }
 harmonic {
     colvars         polarPhi
     forceConstant   0.1
-    centers         60.0
+    centers         60.5
 }
 colvar {
   name translation
@@ -196,7 +196,7 @@ colvar {
       indexGroup  protein
     }
     group2 {
-      dummyAtom (2.4947330951690674, -0.6632679104804993, -2.2046539783477783)
+      dummyAtom (2.8100426197052, -1.205756664276123, -0.5047078728675842)
     }
   }
 }
