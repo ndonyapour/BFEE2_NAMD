@@ -4,7 +4,7 @@ calculation simulations using the [[https://github.com/fhh2626/BFEE2/tree/main][
 To install BFEE2, you can follow the steps below:
 
 ** Installation
-*** First you need to install `BFEE2`
+*** First you need to install ~BFEE2~
 
 #+BEGIN_SRC bash
 conda create --name bfee2
@@ -15,7 +15,7 @@ conda install -c conda-forge BFEE2
 Note that you need to have conda installed on your system for these commands to work.
 
 In addition to installing BFEE2, you also need to install NAMD and Gromacs and patch them with Colvars to run the simulations.
-The [[https://www.nature.com/articles/s41596-021-00676-1#Sec47][supplimentary]]
+The [[https://www.nature.com/articles/s41596-021-00676-1#Sec47][supplimentary Information]]
 of the BFEE2 paper titled "Accurate determination of protein:ligand standard binding free energies from molecular dynamics simulations"
 provides a detailed tutorial on how to install NAMD and Gromacs and patch them with Colvars.
 
