@@ -14,8 +14,8 @@ conda install -c conda-forge BFEE2
 
 Note that you need to have conda installed on your system for these commands to work.
 
-In addition to installing BFEE2, you also need to install NAMD and Gromacs and patch them with Colvars to run the simulations.
-The [[https://www.nature.com/articles/s41596-021-00676-1#Sec47][supplimentary Information]]
+In addition to installing BFEE2, you also need to install NAMD and Gromacs and patch them with [[https://colvars.github.io][Colvars]] to run the simulations.
+The [[https://static-content.springer.com/esm/art%3A10.1038%2Fs41596-021-00676-1/MediaObjects/41596_2021_676_MOESM1_ESM.pdf][supplimentary Information]]
 of the BFEE2 paper titled "Accurate determination of protein:ligand standard binding free energies from molecular dynamics simulations"
 provides a detailed tutorial on how to install NAMD and Gromacs and patch them with Colvars.
 
